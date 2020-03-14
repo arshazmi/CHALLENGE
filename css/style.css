@@ -1,12 +1,16 @@
 
 .fcont{
     text-align: left;
-    
-    }
-/* Bordered form */
+    min-height: 500px!important;
+    background-image: url("https://cdn.dribbble.com/users/1286027/screenshots/8992972/media/5392142624624fe12980b919f762bccc.png");
+    background-position: right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+/* Bordered form 
 form {
       border: 3px solid #f1f1f1;
-    }
+    }*/
 
 /* Full-width inputs */
 input[type = text], input[type = password] {
@@ -34,12 +38,12 @@ input[type = text], input[type = password] {
       opacity: 0.8;
     }
 
-/* Extra style for the cancel button (red) */
+/* Extra style for the cancel button (red)
 .cancelbtn {
       width: auto;
       padding: 10px 18px;
       background-color:#f44336;
-    }
+    } */
 
 /* Add padding to containers */
 .container {
@@ -48,7 +52,7 @@ input[type = text], input[type = password] {
 
     /* The "Forgot password" text */
     span.psw {
-      float: right;
+      
       padding-top: 16px;
     }
 
