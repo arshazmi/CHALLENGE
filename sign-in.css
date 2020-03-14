@@ -21,15 +21,17 @@ section{
 }
 .first{
     background-image: url("https://cdn.dribbble.com/users/1286027/screenshots/8992972/media/5392142624624fe12980b919f762bccc.png");
-    background-size: 100%;
+    background-size: 50%;
     background-repeat: no-repeat;
-    padding: 200px 200px 200px 200px;
+    padding: 100px 200px 200px 200px;
+    background-position: right;
 }
 .textcontainer{
     background-color: antiquewhite;
-    background-size:100% ;
+    background-size:50% ;
     background-attachment:absolute;
     padding: 16px;
+    background-position: left;
 }
 /* Full-width inputs */
 input[type = text], input[type = password] {
