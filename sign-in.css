@@ -1,0 +1,63 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: 'serif ;
+}
+section{
+    max-width: 100%;
+    min-height: 500px;
+
+}
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 968px;
+}
+.container-fluid{
+    background-color: rgb(235, 154, 48);
+    background-size: 100%;
+    background-attachment: relative;
+}
+.first{
+    background-image: url("https://cdn.dribbble.com/users/1286027/screenshots/8992972/media/5392142624624fe12980b919f762bccc.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 200px 200px 200px 200px;
+}
+.textcontainer{
+    background-color: antiquewhite;
+    background-size:100% ;
+    background-attachment:absolute;
+    padding: 16px;
+}
+/* Full-width inputs */
+input[type = text], input[type = password] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+  }
+
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+  /* The "Forgot password" text */
+  span.psw {
+    
+    padding-top: 16px;
+  }
