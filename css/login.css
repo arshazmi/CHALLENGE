@@ -72,21 +72,24 @@ button {
     border: none;
     cursor: pointer;
     width: 25%;
+    border-radius: 15%;
   }
+/* Set text colour on button white*/
 button a{
     color: antiquewhite;
 }
+/* Removed underline from links*/
 a{
   text-decoration: none;
   }
 
 /* Add a hover effect for buttons */
-  button:hover {
+button:hover {
     opacity: 0.8;
   }
 
-  /* The "Forgot password" text */
-  span.psw {
+/* The "Forgot password" text */
+span.psw {
     
     padding-top: 16px;
     padding-bottom: 16px;
